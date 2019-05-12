@@ -7,6 +7,11 @@
 print("Hello, world!")
 ```
 
+Run in terminal macOS
+```shell
+swift <file>.swift
+```
+
 ***
 
 - [_Swift docs_](https://docs.swift.org/swift-book/LanguageGuide/TheBasics.html)
@@ -33,8 +38,9 @@ type(of:)
 - [_Swift docs: enum_](https://docs.swift.org/swift-book/LanguageGuide/Enumerations.html)
 - [_Swift docs: Structures and Classes_](https://docs.swift.org/swift-book/LanguageGuide/ClassesAndStructures.html)
 
-## XCTest
+# <img src="/img/xctest.jpg" width="24" height="24">  XCTest
 
 - [__XCTest__](Swift/XCTest/XCTest.md)
     - [__XCUITest__](Swift/XCTest/XCUITest/XCUitest.md)
+    - [_UI Testing in Xcode_](https://www.youtube.com/watch?v=7zMGf-0OnoU)
     - [_UI Testing Cheat Sheet and Examples_](http://masilotti.com/ui-testing-cheat-sheet/)
