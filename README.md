@@ -1,7 +1,7 @@
 <!-- [_Stack Overflow: _]() -->
 <!-- [_GitHub: _]() -->
 
-# <img src="/imgs/swift.png" width="24" height="24"> Swift
+# <img src="/img/swift.png" width="24" height="24"> Swift
 
 ```swift
 print("Hello, world!")
