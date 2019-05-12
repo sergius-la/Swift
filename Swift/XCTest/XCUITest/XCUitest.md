@@ -2,7 +2,7 @@
 
 Tools:
 - Xcode -> Open developer tools -> `Accessibility Inspector`
-    - <kbd>⌘ Command</kbd> + <kbd>F7</kbd> - Inspect Element
+    - <kbd>⌥ Alt</kbd> + <kbd>Space</kbd> - Inspect Element
 - `UI Recorder`
 
 ***
@@ -39,14 +39,19 @@ class CalculatorUITests: XCTestCase {
 - App Store: `com.apple.AppStore`
 - Safari: `com.apple.mobilesafari`
 
+#### XCUIApplication methods
+
+- `.swipeDown()`, `.swipeLeft()`
+    - swipe by coordinate
+
 ## XCUIElementQuery
 
 #### XCUIElementQuery methods
 
 - Element type: Button, table, menu, etc
-    - .descendantsMatchingType()
-    - .childrenMatchingType()
-    - .containingType()
+    - `.descendantsMatchingType()`
+    - `.childrenMatchingType()`
+    - `.containingType()`
     ```swift
     let app = XCUIApplication()
     app.buttons[<"label">]
@@ -87,8 +92,8 @@ class CalculatorUITests: XCTestCase {
 #### XCUIElement methods
 
 - __Interactions:__
-    - .tap()
-    - .typeText(<"Text">)
+    - `.tap()`
+    - `.typeText(<"Text">)`
 - __Verification:__
-    - .exists -> boolean
-    - .isSelected -> boolean
+    - `.exists` -> boolean
+    - `.isSelected` -> boolean
