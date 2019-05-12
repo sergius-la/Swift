@@ -42,5 +42,5 @@ type(of:)
 
 - [__XCTest__](Swift/XCTest/XCTest.md)
     - [__XCUITest__](Swift/XCTest/XCUITest/XCUitest.md)
-    - [_UI Testing in Xcode_](https://www.youtube.com/watch?v=7zMGf-0OnoU)
-    - [_UI Testing Cheat Sheet and Examples_](http://masilotti.com/ui-testing-cheat-sheet/)
+        - [_UI Testing in Xcode_](https://www.youtube.com/watch?v=7zMGf-0OnoU)
+        - [_UI Testing Cheat Sheet and Examples_](http://masilotti.com/ui-testing-cheat-sheet/)
