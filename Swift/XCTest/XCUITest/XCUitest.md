@@ -87,13 +87,28 @@ class CalculatorUITests: XCTestCase {
 
 #### XCUIElement attributes
 
-- value
+- `value`
+- `.coordinate(withNormalizedOffset: CGVector(dx: 0, dy: 0))`
 
 #### XCUIElement methods
 
 - __Interactions:__
-    - `.tap()`
-    - `.typeText(<"Text">)`
+    - `XCUIElement.tap()`
+    - ```swift
+      // XCUIElement: textField - Type text
+      let textField = app.textFields[<label/title>]
+      textField.tap()
+      textField.typeText(<text>)
+      ```
+    - ```swift
+      // XCUIElement: pickerWheel - Set value
+      let pickerWheel = app.pickerWheels[<label/title>]
+      pickerWheel.adjust(toPickerWheelValue: <value>)
+      ```
+    - ```swift
+      // XCUIElement: sliders - Set value
+      app.sliders.element.adjust(toNormalizedSliderPosition: 0.7)
+      ```
 - __Verification:__
     - `.exists` -> boolean
     - `.isSelected` -> boolean
